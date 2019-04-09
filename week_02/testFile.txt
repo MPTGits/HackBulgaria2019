@@ -1,0 +1,9 @@
+====22-03-2019====
+10,Deposit,income
+20,Savings,income
+27.7,Food,expense
+32,Monz,expense
+====23-03-2019====
+700,Salary,income
+50,Savings,income
+4,Eating Out,expense
