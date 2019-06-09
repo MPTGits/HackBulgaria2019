@@ -4,7 +4,7 @@ import sqlite3
 def creat_user_table(database_name):
     conn = sqlite3.connect(database_name)
     c=conn.cursor()
-    if not os.path.exists(database_name): 
+    if os.path.exists(database_name): 
         c.execute(
             """CREATE TABLE User
                  (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, full_name VARCHAR(255) NOT NULL UNIQUE, email VARCHAR(255) NOT NULL UNIQUE, age int NOT NULL, phone VARCHAR(255) NOT NUll,aditional_info text)""")

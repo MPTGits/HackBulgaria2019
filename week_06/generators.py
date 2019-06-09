@@ -8,9 +8,7 @@ def chain(iterable_one, iterable_two):
         #yield el
     return iter(res)
 
-# res=chain(range(0,4),range(2,8))
-# print(res)
-# print(res)
+#res=chain(range(0,4),range(2,8))
 
 def compress(iterable, mask):
     result_list=[]
@@ -85,9 +83,9 @@ def current_mouse_poss():
     while True:
         x,y=pyautogui.position()
         if x<600 and y<500:
-            os.system('play -nq -t alsa synth {} sine {}'.format(1, 440))
+            os.system("say 'Sansa Stark dies in Game of Thrones' &")
         yield (x,y)
 
-gen=current_mouse_poss()
-while True:
-    print(next(gen))
+# gen=current_mouse_poss()
+# while True:
+#     print(next(gen))
