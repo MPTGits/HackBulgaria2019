@@ -10,7 +10,7 @@ from appointment_table import AppointmentTable
 
 class TestingUserMenus(unittest.TestCase):
 
-    def test_if_patient_user_is_assinged_to_his_menu_bar(self):
-        user=Patient("Marto",20)
-        patient_menu=PatientMenu(user)
-        assertRaises()
+    #def test_if_patient_user_is_assinged_to_his_menu_bar(self):
+        #user=Patient("Marto",20)
+        #patient_menu=PatientMenu(user)
+        #assertRaises()
